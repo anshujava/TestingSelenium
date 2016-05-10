@@ -1,0 +1,27 @@
+1)  int to String and String to int.
+2)  Reverse a String [String str = "Hello how are you"]
+3)  Reverse a String array [String strArray [] = new String[]{"d","a","4"}]
+4)  Reverse a ArrayList [List ls = new ArrayList();
+    ls.add("Anshu");]
+5)  Find and remove Duplicates in array [int arr[] = new int[]{1,2,2,3,4}]
+6)  Find out missing elements in array.[int array [] = new int[]{1,2,3,5,6,7}]
+7)  Get position of array [ int[] arr = new int[]{18,20,25,27,28}; ]
+    Tell me the position of third element that is 25 and answer is 2]
+8)  How to run multiple thread one will print 1 to 10 and another will print 11 to 20
+    [output is :1,11,2,12,3,13,4,14,5,15,6,16.........]
+9)  Remove and add elements in a ArrayList
+10) Method overriding with access modifiers
+11) create null pointer exception.
+12) equals and ==
+13) String is immutable with example
+14) Swap with third variable and without third variable.
+15) Write own exception class.
+16) Sorting :: array and ArrayList
+17) FIZZ & BUZZ Problem
+18) Inheritance
+19) StringBuffer-(Enter null)
+20) ArrayLsit and LinkedList
+21) Duplicates Word in a String.
+22) Print All words and How many times in a string.
+23) Triangular Series (output:::1,3,6,10,15,21,28.......)
+24) prepared statement
