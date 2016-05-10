@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="Anshuman" id="0" name="AntTest" package="seleniumtest" skipped="0" tests="1" time="35.537" timestamp="2015-11-20T06:25:26">
+      <properties>
+          <property name="ant.project.invoked-targets" value="exec" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.6.0_22\jre\bin" />
+
+          <property name="java.vm.version" value="17.1-b03" />
+
+          <property name="ant.library.dir" value="F:\apache-ant-1.9.6\lib" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+
+          <property name="ant.java.version" value="1.6" />
+
+          <property name="ant.file.test" value="F:\EclipseWorkspace\ANT_SELENUM\build.xml" />
+
+          <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+
+          <property name="java.vendor.url" value="http://java.sun.com/" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="user.country" value="US" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="user.dir" value="F:\EclipseWorkspace\ANT_SELENUM" />
+
+          <property name="lib" value="./lib" />
+
+          <property name="java.runtime.version" value="1.6.0_22-b04" />
+
+          <property name="bin" value="./bin" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="basedir" value="F:\EclipseWorkspace\ANT_SELENUM" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.6.0_22\jre\lib\endorsed" />
+
+          <property name="os.arch" value="x86" />
+
+          <property name="ant.project.default-target" value="exec" />
+
+          <property name="java.io.tmpdir" value="C:\Users\anshu\AppData\Local\Temp\" />
+
+          <property name="ant.core.lib" value="F:\apache-ant-1.9.6\lib\ant.jar" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="user.variant" value="" />
+
+          <property name="os.name" value="Windows NT (unknown)" />
+
+          <property name="ant.home" value="F:\apache-ant-1.9.6" />
+
+          <property name="ant.project.name" value="test" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.6.0_22\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Java\jdk1.6.0_22\bin;C:\Program Files (x86)\Java\jre6\bin;F:\apache-ant-1.9.6\bin;" />
+
+          <property name="src" value="./src" />
+
+          <property name="java.class.version" value="50.0" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+
+          <property name="ant.file.type.test" value="file" />
+
+          <property name="os.version" value="6.2" />
+
+          <property name="ant.file" value="F:\EclipseWorkspace\ANT_SELENUM\build.xml" />
+
+          <property name="user.home" value="C:\Users\anshu" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="java.specification.version" value="1.6" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="user.name" value="anshu" />
+
+          <property name="java.class.path" value="F:\apache-ant-1.9.6\lib\ant-launcher.jar;F:\apache-ant-1.9.6\lib\ant-antlr.jar;F:\apache-ant-1.9.6\lib\ant-apache-bcel.jar;F:\apache-ant-1.9.6\lib\ant-apache-bsf.jar;F:\apache-ant-1.9.6\lib\ant-apache-log4j.jar;F:\apache-ant-1.9.6\lib\ant-apache-oro.jar;F:\apache-ant-1.9.6\lib\ant-apache-regexp.jar;F:\apache-ant-1.9.6\lib\ant-apache-resolver.jar;F:\apache-ant-1.9.6\lib\ant-apache-xalan2.jar;F:\apache-ant-1.9.6\lib\ant-commons-logging.jar;F:\apache-ant-1.9.6\lib\ant-commons-net.jar;F:\apache-ant-1.9.6\lib\ant-jai.jar;F:\apache-ant-1.9.6\lib\ant-javamail.jar;F:\apache-ant-1.9.6\lib\ant-jdepend.jar;F:\apache-ant-1.9.6\lib\ant-jmf.jar;F:\apache-ant-1.9.6\lib\ant-jsch.jar;F:\apache-ant-1.9.6\lib\ant-junit.jar;F:\apache-ant-1.9.6\lib\ant-junit4.jar;F:\apache-ant-1.9.6\lib\ant-launcher.jar;F:\apache-ant-1.9.6\lib\ant-netrexx.jar;F:\apache-ant-1.9.6\lib\ant-swing.jar;F:\apache-ant-1.9.6\lib\ant-testutil.jar;F:\apache-ant-1.9.6\lib\ant.jar;C:\Program Files (x86)\Java\jdk1.6.0_22\lib\tools.jar" />
+
+          <property name="java.vm.specification.version" value="1.0" />
+
+          <property name="sun.arch.data.model" value="32" />
+
+          <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.6.0_22\jre" />
+
+          <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="user.language" value="en" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="java.version" value="1.6.0_22" />
+
+          <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.6.0_22\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.6.0_22\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.6.0_22\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.6.0_22\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.6.0_22\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.6.0_22\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.6.0_22\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.6.0_22\jre\classes" />
+
+          <property name="java.vendor" value="Sun Microsystems Inc." />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+
+          <property name="report" value="./report" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+
+      </properties>
+
+      <testcase classname="seleniumtest.AntTest" name="testGoogleSearch" time="34.51">
+          <failure message="expected:&lt;How to cook chicken[ - Google Search]&gt; but was:&lt;How to cook chicken[]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;How to cook chicken[ - Google Search]&gt; but was:&lt;How to cook chicken[]&gt;
+	at seleniumtest.AntTest.testGoogleSearch(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[Starting ChromeDriver 2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067) on port 16051
+Only local connections are allowed.
+Nov 20, 2015 11:56:00 AM org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+INFO: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@19a0feb
+]]></system-err>
+
+  </testsuite>
+</testsuites>
