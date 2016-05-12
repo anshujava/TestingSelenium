@@ -18,13 +18,13 @@
 15) Write own exception class.
 16) Sorting :: array and ArrayList
 17) FIZZ & BUZZ Problem
-18) Inheritance
-19) StringBuffer-(Enter null)
 /**
 	 * This program plays the game "Fizzbuzz".  It counts to 100, replacing each
 	 * multiple of 3 with the word "fizz", each multiple of 5 with the word "buzz",
 	 * and each multiple of both with the word "fizzbuzz". 
 	 **/
+18) Inheritance
+19) StringBuffer-(Enter null)
 20) ArrayLsit and LinkedList
 21) Duplicates Word in a String.
 22) Print All words and How many times in a string.
