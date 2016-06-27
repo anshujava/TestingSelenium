@@ -7,7 +7,7 @@ public class PrimeNo {
 //	For example 2, 3, 5, 7, 11, 13, 17.... are the prime numbers.
 	 public static void main(String args[]){  
 		  int i,m=0,flag=0;    
-		  int n=17;//it is the number to be checked  
+		  int n=9;//it is the number to be checked  
 		  m=n/2;    
 		  for(i=2;i<=m;i++){    
 		   if(n%i==0){    
