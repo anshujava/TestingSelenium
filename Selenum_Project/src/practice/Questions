@@ -24,11 +24,13 @@
 	 * and each multiple of both with the word "fizzbuzz". 
 	 **/
 18) Inheritance
-19) StringBuffer-(Enter null)
-20) ArrayLsit and LinkedList
-21) Duplicates Word in a String.
-22) Print All words and How many times in a string.
-23) Triangular Series (output:::1,3,6,10,15,21,28.......)
-24) prepared statement
-25)Converting int value to String without using toString and parseInt method
-26) Prime no or not?
+19) Reverse word in a string [String str = "hello good morning" , output : morning good hello]
+20) StringBuffer-(Enter null)
+21) ArrayLsit and LinkedList
+22) Duplicates Word in a String.
+23) Print All words and How many times in a string.
+24) Triangular Series (output:::1,3,6,10,15,21,28.......)
+25) prepared statement
+26) Converting int value to String without using toString and parseInt method
+27) Prime no or not?
+28) Happy number?
