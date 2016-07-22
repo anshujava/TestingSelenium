@@ -12,7 +12,7 @@
 9)  Remove and add elements in a ArrayList
 10) Method overriding with access modifiers
 11) create null pointer exception.
-12) equals and ==
+12) equals and == and equal ignorecase
 13) String is immutable with example
 14) Swap with third variable and without third variable.
 15) Write own exception class.
@@ -34,3 +34,5 @@
 26) Converting int value to String without using toString and parseInt method
 27) Prime no or not?
 28) Happy number?
+29) Change date format?
+30)producer–consumer problem?
