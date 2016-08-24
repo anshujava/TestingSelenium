@@ -7,6 +7,7 @@ public class TrimExample {
 		System.out.println("result=="+str+",and size is="+str.length());
 		System.out.println("trim=="+str.trim()+",and size is="+str.trim().length());
 
+	
 	}
 
 }
