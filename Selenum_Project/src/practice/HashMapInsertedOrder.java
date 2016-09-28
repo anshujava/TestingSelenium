@@ -1,6 +1,7 @@
 package practice;
 
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -8,6 +9,7 @@ public class HashMapInsertedOrder {
 
 	public static void main(String[] a) {
 		Map<String, String> map = new LinkedHashMap<String, String>();
+//		Map<String, String> map = new HashMap<String, String>();
 		map.put("id", "3");
 		map.put("name", "shyam");
 		
