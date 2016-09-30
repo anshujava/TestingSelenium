@@ -9,7 +9,7 @@ import com.relevantcodes.extentreports.GridType;
 
 public class LoginVerifyGoogleScript {
 	static final ExtentReports extent = ExtentReports.get(LoginVerifyGoogleScript.class);
-	static String reportLocation = "F:\\EclipseWorkspace\\Selenum_Project\\src\\VerifyGoogle\\reports\\";
+	static String reportLocation = "F:\\git\\TestingSelenium\\Selenum_Project\\src\\VerifyGoogle\\reports\\";
 	static String ScriptName = LoginVerifyGoogleScript.class.getSimpleName();
 	public static void main(String[] args) throws FileNotFoundException {
 	  try {
@@ -18,7 +18,7 @@ public class LoginVerifyGoogleScript {
 	        extent.config().documentTitle("Report To Verify Google");
 	        extent.config().reportHeadline("Test Report for Google Test<b>Reports</b>");
 	        extent.startTest("Test Case ","This test is Launch Google and Verify");
-	        FileInputStream fis = new FileInputStream("F:\\EclipseWorkspace\\Selenum_Project\\src\\VerifyGoogle\\LoginVerifyGoogle_Data.xls");
+	        FileInputStream fis = new FileInputStream("F:\\git\\TestingSelenium\\Selenum_Project\\src\\VerifyGoogle\\LoginVerifyGoogle_Data.xls");
 	        RunTest.runTestStep(fis);
 	        extent.endTest();
 	        

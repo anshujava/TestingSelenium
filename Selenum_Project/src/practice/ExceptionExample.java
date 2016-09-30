@@ -3,7 +3,7 @@ package practice;
 public class ExceptionExample {
 
 	public static void main(String[] args) {
-//		openFile();
+//		System.out.println(openFile());
 		System.out.println(nullPointer());
 
 	}
@@ -40,11 +40,11 @@ public class ExceptionExample {
 	        	return s1; 
 	           
 	        } catch (Exception e) {
-//	        	System.out.println("catch");
+	        	System.out.println("catch");
 	        	return s2; 
 	        }
 	        finally {
-//	        	System.out.println("finally");
+	        	System.out.println("finally");
 	            return s3;
 	        }
 	    }

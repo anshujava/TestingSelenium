@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29121" started-at="2015-12-03T08:03:28Z" finished-at="2015-12-03T08:03:57Z">
+  <suite name="Default suite" duration-ms="13" started-at="2016-06-03T07:50:02Z" finished-at="2016-06-03T07:50:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29121" started-at="2015-12-03T08:03:28Z" finished-at="2015-12-03T08:03:57Z">
-      <class name="SelenieumProject.SearchSuggestion">
-        <test-method status="PASS" signature="start()[pri:0, instance:SelenieumProject.SearchSuggestion@1ad0dd8]" name="start" is-config="true" duration-ms="19980" started-at="2015-12-03T13:33:28Z" finished-at="2015-12-03T13:33:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="SearchSuggestion()[pri:0, instance:SelenieumProject.SearchSuggestion@1ad0dd8]" name="SearchSuggestion" duration-ms="9056" started-at="2015-12-03T13:33:48Z" finished-at="2015-12-03T13:33:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchSuggestion -->
-      </class> <!-- SelenieumProject.SearchSuggestion -->
+    <test name="Default test" duration-ms="13" started-at="2016-06-03T07:50:02Z" finished-at="2016-06-03T07:50:02Z">
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

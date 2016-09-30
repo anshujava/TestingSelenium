@@ -21,7 +21,7 @@ public class RemoveDuplicates {
 	                System.out.println("##"+words[k]);
 	            }
 	            else{
-//	            	System.out.println("duplicates::"+words[k]);
+	            	System.out.println("duplicates::"+words[k]);
 	            }
 	        }
 	        

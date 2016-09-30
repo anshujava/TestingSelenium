@@ -18,7 +18,7 @@ public class MyActions {
 	 public void Launch(String url,String driverType) throws InterruptedException{
 		 if(driverType.equals("chrome")){
 			  System.setProperty("webdriver.chrome.driver",
-		            "F:/EclipseWorkspace/Selenum_Project/src/lib/chromedriver.exe");
+		            "F:/git/TestingSelenium/Selenum_Project/src/lib/chromedriver.exe");
 		    WebDriver driver = new ChromeDriver();
 		    driver.get(url);
 		    driver.manage().window().maximize();
@@ -32,7 +32,7 @@ public class MyActions {
 			  Thread.sleep(5000);
 		  }else{
 			  System.setProperty("webdriver.chrome.driver",
-			            "F:/EclipseWorkspace/Selenum_Project/src/lib//IEDriverServer.exe");
+			            "F:/git/TestingSelenium/Selenum_Project/src/lib/IEDriverServer.exe");
 			  WebDriver driver = new InternetExplorerDriver();
 			  driver.get(url);
 			  driver.manage().window().maximize();

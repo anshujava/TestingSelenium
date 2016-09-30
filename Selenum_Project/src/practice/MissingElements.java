@@ -13,12 +13,14 @@ public class MissingElements {
 	2  Subtract all the numbers from sum and
 	   you will get the missing number.
 */
-//		int a[] = {1,2,4,5,6};
-//		int n = a.length+1;
-//		int total  = n*(n+1)/2;   
-//	    for ( int i = 0; i< a.length; i++)
-//	       total -= a[i];
-//	    System.out.println(""+total);
+//		int ar [] = new int[]{1,2,3,5,6,7};
+//		int n = ar.length+1;
+//		int total = n*(n+1)/2;
+//		for(int i =0;i<ar.length;i++){
+//			total -=ar[i];
+//			
+//		}
+//		System.out.println(total);
 	    
 	    
 //2nd Way

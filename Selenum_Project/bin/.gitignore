@@ -1,8 +1,10 @@
+/lib/
+/practice/
 /POM_SELENEUM/
 /SelenieumProject/
 /TestNGReporting_Seleneum/
 /Thread/
-/VerifyCheeseCakeFactory/
 /VerifyGoogle/
-/lib/
-/practice/
+/junitpack/
+/sendSMS/
+/VerifyCheeseCakeFactory/

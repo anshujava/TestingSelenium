@@ -12,7 +12,7 @@ import com.relevantcodes.extentreports.GridType;
 
 public class VerifyCheeseCakeFactory_TC01_SignUp {
 	static final ExtentReports extent = ExtentReports.get(VerifyCheeseCakeFactory_TC01_SignUp.class);
-	static String reportLocation = "F:\\EclipseWorkspace\\Selenum_Project\\src\\VerifyCheeseCakeFactory\\TC01\\reports\\";
+	static String reportLocation = "F:\\git\\TestingSelenium\\Selenum_Project\\src\\VerifyCheeseCakeFactory\\TC01\\reports\\";
 	static String ScriptName = VerifyCheeseCakeFactory_TC01_SignUp.class.getSimpleName();
 	public static void main(String[] args) throws FileNotFoundException {
 	  try {
@@ -21,7 +21,7 @@ public class VerifyCheeseCakeFactory_TC01_SignUp {
 	        extent.config().documentTitle("Report To Verify CheeseCakeBakeryFactory PAage");
 	        extent.config().reportHeadline("Test Report for CheeseCakeBakeryFactory Test<b>Reports</b>");
 	        extent.startTest("Test Case ","This test is Launch CheeseCakeBakeryFactory and Verify");
-	        FileInputStream fis = new FileInputStream("F:\\EclipseWorkspace\\Selenum_Project\\src\\VerifyCheeseCakeFactory\\TC01\\TC01_SignUp_Data.xls");
+	        FileInputStream fis = new FileInputStream("F:\\git\\TestingSelenium\\Selenum_Project\\src\\VerifyCheeseCakeFactory\\TC01\\TC01_SignUp_Data.xls");
 	        RunTest.runTestStep(fis);
 	        extent.endTest();
 	        
