@@ -1,6 +1,6 @@
 package practice;
 
-public class ArithmaticException {
+public class ArithException  {
 	public static void main(String args[]) 
 	{
 	 
@@ -13,7 +13,7 @@ public class ArithmaticException {
 	catch(ArithmeticException aex){
 		System.out.println(" arith exception is : "+aex.getMessage());
 	}
-	catch(Exception ex){
+	catch(Exception  ex){
 		System.out.println("exception is : "+ex.getMessage());
 	}
 	
