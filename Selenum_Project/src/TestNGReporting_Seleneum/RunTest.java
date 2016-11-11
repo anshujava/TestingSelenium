@@ -8,6 +8,7 @@ import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
+import org.openqa.selenium.WebDriver;
 
   public class RunTest {
 	  static String ExcelAction = "";
@@ -22,7 +23,7 @@ import org.apache.poi.ss.usermodel.Cell;
 			
 	  }
 
- public static void runTest(FileInputStream fis) {
+ public static void runTest(FileInputStream fis,WebDriver driver) {
 	 MyAllActions act=new MyAllActions();
 	 try {
 	  HSSFWorkbook wb = new HSSFWorkbook(fis);
@@ -59,11 +60,11 @@ import org.apache.poi.ss.usermodel.Cell;
   	          Actions actions = Actions.valueOf(ExcelAction); 
   			  switch(actions) {
   				case LaunchBrowser:
-					act.LaunchBrowser(ExcelValue1,ExcelValue2,ExcelValue);
+					act.LaunchBrowser(ExcelValue2,ExcelValue,driver);
 				    break;
   					 
   				case Search:
-  					act.Search(ExcelValue);
+  					act.Search(ExcelValue,driver);
   					break;
   					 
   			 }
@@ -78,7 +79,7 @@ import org.apache.poi.ss.usermodel.Cell;
 	 System.out.println("Exception is :::"+ioe.getMessage());
      }
 	 catch(NullPointerException e){
-	 
+		 System.out.println("Exception is :::"+e.getMessage());
      }
 	 
   }

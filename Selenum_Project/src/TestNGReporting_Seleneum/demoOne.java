@@ -1,5 +1,7 @@
 package TestNGReporting_Seleneum;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 public class demoOne {
 	@Test(timeOut=1000)
 	public void firstTestCase() throws InterruptedException
