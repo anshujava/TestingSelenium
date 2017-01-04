@@ -27,7 +27,7 @@
 19) Reverse word in a string [String str = "hello good morning" , output : morning good hello]
 20) StringBuffer-(Enter null)
 21) ArrayLsit and LinkedList
-22) Duplicates Word in a String.
+22) Duplicates Word in a String.[String str = "HI ANSHU I AM FINE ANSHU I AM RAHUL";]
 23) Print All words and How many times in a string.
 24) Triangular Series (output:::1,3,6,10,15,21,28.......)
 25) prepared statement
@@ -43,3 +43,11 @@
 35) exception handeling with return type?
 36) Print 1 to 10 without using loop in java
 37) Exception handeling and arithmatic exception
+38) Factorial
+39) String format[input : anshuman choudhury output: a choudhury]
+40) Search a character
+41) Compare two arrays
+42) BinarySearch
+43) BubbleSort
+44) Find and count character
+45) Java native / static block and constructor
