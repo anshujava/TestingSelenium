@@ -11,7 +11,7 @@ public class pyramid {
 			System.out.println(); 
 			
 			} 
-		for (int a = 4; a >0; a--) {
+		for (int a = 4; a >=0; a--) {
             for (int b = 1; b <= a; b++) {
                   System.out.print(b+" ");
             }

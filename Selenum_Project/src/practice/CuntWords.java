@@ -15,7 +15,7 @@ public class CuntWords {
 		 String[] words = sentence.split(" ");
 		 Arrays.sort(words);
 		 int count = 0;
-	        List list = new ArrayList();
+	        List<Object> list = new ArrayList<Object>();
 	        list.add(words);
 	        for(int k=0;k<words.length;k++){
 	            if(!list.contains(words[k])){

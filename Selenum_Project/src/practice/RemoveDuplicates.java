@@ -13,7 +13,7 @@ public class RemoveDuplicates {
 //		String str = "A B C D A E F";
 //		String[] words = str.split(" ");
 		String[] words = new String[]{"F","G","K","G","L","A"};
-		 List list = new ArrayList();
+		 List<Object> list = new ArrayList<Object>();
 	        list.add(words);
 	        for(int k=0;k<words.length;k++){
 	            if(!list.contains(words[k])){

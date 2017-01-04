@@ -8,7 +8,7 @@ public class DateFormat {
 	public static void main(String[] args) {
 		    Date date = new Date();
 	        // Specify the desired date format
-	        String DATE_FORMAT = "dd-MMM-yyyy";
+	        String DATE_FORMAT = "dd-MMM-yyyy_HH:mm:ss";
 	        // Create object of SimpleDateFormat and pass the desired date format.
 	        SimpleDateFormat sdf = new SimpleDateFormat(DATE_FORMAT);
 	        /*

@@ -12,6 +12,9 @@ public class MissingElements {
 	       total = n*(n+1)/2
 	2  Subtract all the numbers from sum and
 	   you will get the missing number.
+	3. according to below logic sumOfNnumberss is 7*(7+1)/2=28
+	sumOfElements = 1+2+3+5+6+7=24
+	missing element is = 28-24=4
 */
 //		int ar [] = new int[]{1,2,3,5,6,7};
 //		int n = ar.length+1;

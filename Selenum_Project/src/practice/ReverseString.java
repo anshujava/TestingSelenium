@@ -7,17 +7,29 @@ public class ReverseString {
 	 */
 	public static void main(String[] args) {
 		String str = "Hello how are you";
-		ReverseString rev = new ReverseString();
-		rev.reverseStr(str);
+		//System.out.println("reverse is ::::->"+reverseStr(str));
+		System.out.println("reverse is ::::->"+reverseRecursively(str));
 		
 	}
-	public String reverseStr(String s){
+	public static String reverseStr(String s){
 	String reverse ="";
 	for(int i = s.length()-1;i>=0;i--){
 		reverse = reverse + s.charAt(i);
 	}
-	System.out.println("reverse is ::::->"+reverse);
+	
 	return reverse;
 	}
+	
+	public static String reverseRecursively(String str) {
+
+        //base case to handle one char string and empty string
+        if (str.length() < 2) {
+            return str;
+        }
+
+        return reverseRecursively(str.substring(1)) + str.charAt(0);
+
+    }
+
 
 }
