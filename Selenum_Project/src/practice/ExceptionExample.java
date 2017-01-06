@@ -3,11 +3,10 @@ package practice;
 public class ExceptionExample {
 
 	public static void main(String[] args) {
-//		System.out.println(openFile());
-		System.out.println(nullPointer());
+		System.out.println(openFile());
+//		System.out.println(nullPointer());
 
 	}
-	@SuppressWarnings("finally")
 	public static String nullPointer(){
 		 try {
 		String[] x = null;
@@ -17,10 +16,11 @@ public class ExceptionExample {
        System.out.println(" "+x[i]);
 		} 
 		System.out.println("completed");
+		
 		} catch (Exception e) {
 			System.out.println("Exception is "+e.getMessage());
 //			throw e;
-			return "catch here";
+			
         }
         finally {
 //        	System.out.println("finally");

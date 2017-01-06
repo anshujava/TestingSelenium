@@ -15,8 +15,8 @@ public class MatchUP {
 	public static void main(String[] args)
 	   {
 		MatchUP mup = new MatchUP();
-		int[] a = new int[]{1,2,3};
-		int[] b = new int[]{2,3,10};
+		int[] a = new int[]{1,2,3,5,8,6};
+		int[] b = new int[]{2,3,10,6,12,5};
 		mup.matchUp(a,b);	   }
 
 }
