@@ -1,6 +1,6 @@
 package practice;
 
-public class MultipleThreads {
+public class eight_MultipleThreads {
 
 	static Thread t1 = new Thread(){
         public void run(){

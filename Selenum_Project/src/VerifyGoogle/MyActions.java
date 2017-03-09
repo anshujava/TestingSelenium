@@ -18,7 +18,7 @@ public class MyActions {
 	 public void Launch(String url,String driverType) throws InterruptedException{
 		 if(driverType.equals("chrome")){
 			  System.setProperty("webdriver.chrome.driver",
-		            "F:/git/TestingSelenium/Selenum_Project/src/lib/chromedriver.exe");
+		            "F:/git/TestingSelenium/Selenum_Project/src/lib/chromedriver2.25.exe");
 		    WebDriver driver = new ChromeDriver();
 		    driver.get(url);
 		    driver.manage().window().maximize();

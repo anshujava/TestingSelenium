@@ -1,9 +1,9 @@
 package practice;
 
-public class sumClosetToZero {
+public class fourtyeight_sumClosetToZero {
 	public static void main(String[] args) 
     {
-		int[] a = { 1, 5, 7, 3,2, 4 };
+		int[] a = { 1, 5, 7, 3,-2, 4 };
         int  min1 = 0, min2 = 1, minimum;
         int n = a.length;
         int sum =0;
@@ -21,7 +21,7 @@ public class sumClosetToZero {
                 }
             }
         }
-        System.out.println("Element 1:"+a[min1]); 
-        System.out.println("Element 2:"+a[min2]);
+        System.out.println("First Element: " +a[min1]); 
+        System.out.println("2nd Element: " +a[min2]);
     }
 }

@@ -1,6 +1,6 @@
 package practice;
 
-public class NullPointerException {
+public class eleven_NullPointerException {
 	public static void main(String[] args)
 	   {
 	String[] x = null;

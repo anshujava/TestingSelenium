@@ -5,5 +5,4 @@ import org.junit.runners.Suite.SuiteClasses;
 @RunWith(Suite.class) 
 @SuiteClasses({ junittest1.class, junittest2.class }) 
 public class junittestsuite { 
-	
 }

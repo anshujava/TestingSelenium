@@ -1,12 +1,12 @@
 package practice;
 
- class MultipleInheritance {
+ class eighteen_MultipleInheritance {
 	public void methodX()
 	   {
 	     System.out.println("Class X method");
 	   }
 	}
-	class Y extends MultipleInheritance
+	class Y extends eighteen_MultipleInheritance
 	{
 	public void methodY()
 	{

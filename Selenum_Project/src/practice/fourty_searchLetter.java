@@ -3,7 +3,7 @@ package practice;
 import java.util.ArrayList;
 import java.util.List;
 
-public class searchLetter {
+public class fourty_searchLetter {
 	public static void main(String args[]){  
 		String str = "hello how are you";
 		List ls = new ArrayList();

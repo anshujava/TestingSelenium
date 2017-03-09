@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Scanner;
 
-public class FindAndCountCharacter {
+public class fourtyfour_FindAndCountCharacter {
 //	public static void main(String[] args) {
 //		String str = "Programming";
 //		HashMap<Character, Integer> map = new HashMap<>();
@@ -22,6 +22,7 @@ public class FindAndCountCharacter {
 //	}
 	 public static void main(String args[]){
          String word = "anshuman choudhury"; 
+        
          for (int i=0;i<word.length();i++){
               boolean flag=false;
               for(int j=0;j<i;j++){			
@@ -30,7 +31,7 @@ public class FindAndCountCharacter {
                    }    
               }
               if(flag==false){
-                   int count=0;
+            	  int count=0;
                    for(int k=i;k<word.length();k++){
                         if(word.charAt(i)==word.charAt(k)){
                              count++;

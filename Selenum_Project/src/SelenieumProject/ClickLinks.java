@@ -14,32 +14,29 @@ public class ClickLinks {
 	 * @throws InterruptedException 
 	 */
 	public static void main(String[] args) throws InterruptedException {
-		WebDriver driver = new ChromeDriver();
-		List<WebElement> links = driver.findElements(By.tagName("a"));
-        System.out.println(links.size()); 
-//         for (WebElement myElement : links){
-//        for (WebElement myElement : links){
-//        String link = myElement.getText(); 
-//        System.out.println(link);
-//        System.out.println(myElement);   
-//       if (link.contains("gmail")){
-//            myElement.click();
-//            Thread.sleep(2000);
-//           }
-//           //Thread.sleep(5000);
-//         } 
-        List<WebElement> linkList=driver.findElements(By.tagName("a"));
 
+		System.out.println("launching chrome browser");
+		System.setProperty("webdriver.chrome.driver",
+	            "F:/git/TestingSelenium/Selenum_Project/src/lib/chromedriver2.25.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("file:///F:/git/TestingSelenium/Selenum_Project/src/SelenieumProject/links.html");
+		driver.manage().window().maximize();
+        List<WebElement> linkList=driver.findElements(By.tagName("a"));
+        Thread.sleep(2000);
       //now traverse over the list and check
-      for(int i=0 ; i<linkList.size() ; i++)
-      {
-    	 
-          if(linkList.get(i).getAttribute("href").contains("long"))
-          {
-              linkList.get(i).click();
-              break;
-          }
-      }
+        for(int i=0 ; i<linkList.size() ; i++)
+        {
+      	  WebElement allLinks =linkList.get(i);
+      	  String hyperlink=allLinks.getText();
+      	  
+      	  if(hyperlink.contains("Google")){
+      		  System.out.println("inside if");
+      		  allLinks.click();
+      		  
+      	  }
+      	Thread.sleep(5000);
+        }
+      driver.quit();
 	}
 
 }

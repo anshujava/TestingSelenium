@@ -2,7 +2,7 @@ package practice;
 
 import java.util.Arrays;
 
-public class findTwoHighestDistinctValues {
+public class fourtyseven_findTwoHighestDistinctValues {
 
 	public static void main(String[] args) {
 		

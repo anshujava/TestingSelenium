@@ -1,13 +1,14 @@
 package junitpack;
-import org.junit.Test; 
+import org.junit.Test;
 import org.openqa.selenium.By; 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 public class junittest1 {
 	WebDriver driver;
-	@Test public void test() throws InterruptedException { 
+	@Test 
+	public void test() throws InterruptedException { 
 		 System.setProperty("webdriver.chrome.driver",
-		            "F:/git/TestingSelenium/Selenum_Project/src/lib/chromedriver.exe");
+		            "F:/git/TestingSelenium/Selenum_Project/src/lib/chromedriver2.25.exe");
 		  driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://only-testing-blog.blogspot.in/2013/11/new-test.html");

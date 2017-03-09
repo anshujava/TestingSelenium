@@ -1,6 +1,6 @@
 package practice;
 
-public class getFirstNonRepeatingCharacter {
+public class fourtysix_getFirstNonRepeatingCharacter {
 
 	public static void main(String[] args) {
 		
@@ -9,9 +9,9 @@ public class getFirstNonRepeatingCharacter {
 	}
 		
 	public static Character getFirstNonRepeatingCharacterHere(String string) {
-		        if(string == null || string.length() == 0) {
-		            return null;
-		        }
+//		        if(string == null || string.length() == 0) {
+//		            return null;
+//		        }
 		        
 		        int n = string.length();
 		        for(int i = 0; i < n; i++) {

@@ -1,6 +1,6 @@
 package practice;
 
-public class BinarySearch {
+public class fourtytwo_BinarySearch {
 
 	public static void main(String[] args) {
 	int a[]= new int[]{20,30,10,25,45};	

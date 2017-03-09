@@ -1,7 +1,7 @@
 package practice;
 
 
-public class Duplicates {
+public class five_Duplicates {
 	public static void main(String[] args)
 	   {
   

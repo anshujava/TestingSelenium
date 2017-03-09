@@ -1,6 +1,6 @@
 package practice;
 
-public class SwapVariable {
+public class founteen_SwapVariable {
 
 	/**
 	 * @param args
