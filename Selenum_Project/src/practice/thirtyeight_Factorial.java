@@ -1,6 +1,6 @@
 package practice;
 
-public class Factorial {
+public class thirtyeight_Factorial {
 
 	public static void main(String args[]){  
 		 //System.out.println("Factorial is: "+findfactorial(5)); 

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class RemoveDuplicates {
+public class twenty_RemoveDuplicates {
 
 	/**
 	 * @param args

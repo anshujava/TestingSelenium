@@ -9,7 +9,7 @@ public class SeleneumPRactice {
 
 	public static void main(String[] args) throws InterruptedException {
 		 System.setProperty("webdriver.chrome.driver",
-		            "F:/git/TestingSelenium/Selenum_Project/src/lib/chromedriver.exe");
+		            "F:/git/TestingSelenium/Selenum_Project/src/lib/chromedriver2.25.exe");
 		    WebDriver driver = new ChromeDriver();
 		
 //		WebDriver driver = new FirefoxDriver();

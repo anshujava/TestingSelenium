@@ -1,6 +1,6 @@
 package practice;
 
-public class ImmutableString {
+public class thirteen_ImmutableString {
 
 	/**
 	 * @param args

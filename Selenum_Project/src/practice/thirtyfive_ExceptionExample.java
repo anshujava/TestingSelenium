@@ -1,6 +1,6 @@
 package practice;
 
-public class ExceptionExample {
+public class thirtyfive_ExceptionExample {
 
 	public static void main(String[] args) {
 		System.out.println(openFile());
@@ -35,7 +35,7 @@ public class ExceptionExample {
      	 String s2 = " am ";
      	 String s3 = " boy ";
 	        try {
-	        	
+	        	int i = 2/0;
 	        	System.out.println("try");
 	        	return s1; 
 	           
@@ -45,7 +45,7 @@ public class ExceptionExample {
 	        }
 	        finally {
 	        	System.out.println("finally");
-	            return s3;
+//	            return s3;
 	        }
 	    }
 }

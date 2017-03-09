@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class tabDelimeted {
+public class thirtytwo_tabDelimeted {
 public static void main(String[] a) throws IOException {
 		
 		String dataFileName = "C:\\Users\\anshu\\Desktop\\tab1.txt";

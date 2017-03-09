@@ -1,11 +1,11 @@
 package practice;
 
-public class ReverseArray {
+public class three_ReverseArray {
 	public static void main(String[] args)
 		   {
 		String[] x = new String[]{"My","Leg","is","cut"};
 		
-		ReverseArray rev = new ReverseArray();
+		three_ReverseArray rev = new three_ReverseArray();
 		rev.reverseArray(x);
 	}
 	

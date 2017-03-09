@@ -54,4 +54,10 @@
 46) getFirstNonRepeatingCharacter
 47) findTwoHighestDistinctValues
 48) find two numbers which sum is closet to zero
-
+49) compare two string [input String s1 = "ABC"; String s2 = "BC"; output = A and null
+						input String s1 = "BC"; String s2 = "BANGALORE"; output = C and ANGALORE]
+50) Highest and smallest number from given array
+    int numbers[] = new int[]{32,43,53,54,32,65,63,98,43,23};
+    Output of this program would be
+	Largest Number is : 98
+    Smallest Number is : 23

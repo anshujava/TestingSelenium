@@ -1,6 +1,6 @@
 package practice;
 
-public class ArithException  {
+public class thirtyseven_ArithException  {
 	public static void main(String args[]) 
 	{
 	 

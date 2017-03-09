@@ -1,5 +1,9 @@
 package POM_SELENEUM.test;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -38,7 +42,7 @@ public class TestLogin {
 
   String loginPageTitle = objLogin.getLoginTitle();
 
-  Assert.assertTrue(loginPageTitle.toLowerCase().contains(" bank"));
+  AssertJUnit.assertTrue(loginPageTitle.toLowerCase().contains(" bank"));
 
   //login to application
 
@@ -50,7 +54,7 @@ public class TestLogin {
 
   //Verify home page
 
-  Assert.assertTrue(objHomePage.getHomePageDashboardUserName().toLowerCase().contains("manger id : mgr123"));
+  AssertJUnit.assertTrue(objHomePage.getHomePageDashboardUserName().toLowerCase().contains("manger id : mgr123"));
 
   }
 

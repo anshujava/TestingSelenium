@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class HashMapInsertedOrder {
+public class thirtyeight_HashMapInsertedOrder {
 
 	public static void main(String[] a) {
 		Map<String, String> map = new LinkedHashMap<String, String>();

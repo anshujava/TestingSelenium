@@ -1,6 +1,6 @@
 package practice;
 
-public class PrintNumberWithoutLoop {
+public class thirtysix_PrintNumberWithoutLoop {
 
 	public static void recursivefun(int n) 
 	{ 

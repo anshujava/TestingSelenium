@@ -3,7 +3,7 @@ package practice;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RemoveElementsArrayList {
+public class nine_RemoveElementsArrayList {
 	 public static void main(String[] args){
     	List<Integer> ls = new ArrayList<Integer>(10);
     	ls.add(4);

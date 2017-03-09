@@ -5,13 +5,13 @@ import java.util.Arrays;
 import java.util.List;
 
 
-public class CuntWords {
+public class twentythree_CuntWords {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		 String sentence = "i like cricket i love cricket";
+		 String sentence = "i am a boy i am studying in school";
 		 String[] words = sentence.split(" ");
 		 Arrays.sort(words);
 		 int count = 0;
@@ -19,7 +19,7 @@ public class CuntWords {
 	        list.add(words);
 	        for(int k=0;k<words.length;k++){
 	            if(!list.contains(words[k])){
-//	            	System.out.println(words[k]);
+	            	System.out.println(words[k]);
 	                list.add(words[k]);
 	            }
 	        }

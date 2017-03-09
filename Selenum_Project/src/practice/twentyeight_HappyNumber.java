@@ -3,7 +3,7 @@ package practice;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class HappyNumber {
+public class twentyeight_HappyNumber {
 //	Example #1: 13 ; 12 + 32 = 1 + 9 =10 ; 12+ 02= 1 (Thus a happy number)
 //	Example #2: 32; 3 2 + 2 2 = 9 + 4 = 13; and in Example#1 13 is already a happy number;
 //	Some of the first happy numbers are: 1, 7, 10, 13, 19, 23, 28, 31, 32, 44, 49, 68, 70, 79, 82, 86, 91, 94, 97, 100, 103, 109, 129, 130.
@@ -11,7 +11,7 @@ public class HappyNumber {
 public static void main(String args[])throws Exception
 	{
 	int i,j;
-	HappyNumber obj=new HappyNumber();
+	twentyeight_HappyNumber obj=new twentyeight_HappyNumber();
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	System.out.print("enter a number : ");
 	i=Integer.parseInt(br.readLine());

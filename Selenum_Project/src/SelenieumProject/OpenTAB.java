@@ -38,7 +38,6 @@ public class OpenTAB {
 	driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL + "\t");  
 	        driver.switchTo().defaultContent();  
 	        Thread.sleep(2000);  
-	        // Write search String  
 	        driver.quit();
 
 	}

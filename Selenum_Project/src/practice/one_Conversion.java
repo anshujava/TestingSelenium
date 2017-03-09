@@ -1,8 +1,8 @@
 package practice;
 
-public class Conversion {
+public class one_Conversion {
 	public static void main(String[] args) {
-		Conversion conv = new Conversion();
+		one_Conversion conv = new one_Conversion();
 		String strHeloo = conv.intToString(7);
 		int j = 6;
 		System.out.println("output after int to String::"+(strHeloo+j));

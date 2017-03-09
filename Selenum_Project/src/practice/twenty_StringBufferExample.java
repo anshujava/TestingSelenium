@@ -1,6 +1,6 @@
 package practice;
 
-public class StringBufferExample {
+public class twenty_StringBufferExample {
 
 	/**
 	 * @param args

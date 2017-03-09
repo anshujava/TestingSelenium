@@ -1,11 +1,11 @@
 package practice;
 
-public class StrigngFormat {
+public class thirtynine_StrigngFormat {
 
 	public static void main(String[] args) {
 		String s = "anshuman choudhury";
 		String s1 ="biju patnaik";
-		StrigngFormat st = new StrigngFormat();
+		thirtynine_StrigngFormat st = new thirtynine_StrigngFormat();
 		st.StringFormat(s);
 	}
 	public void  StringFormat(String str){

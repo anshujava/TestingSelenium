@@ -1,6 +1,6 @@
 package practice;
 
-public class PrimeNo {
+public class twentyseven_PrimeNo {
 //Prime number in Java: 
 //	Prime number is a number that is greater than 1 and divided by 1 or itself. 
 //	In other words, prime numbers can't be divided by other numbers than itself or 1. 

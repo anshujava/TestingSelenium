@@ -1,6 +1,6 @@
 package practice;
 
-public class FizzBuzz {
+public class seventeen_FizzBuzz {
 	/**
 	 * This program plays the game "Fizzbuzz".  It counts to 100, replacing each
 	 * multiple of 3 with the word "fizz", each multiple of 5 with the word "buzz",

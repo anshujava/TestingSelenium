@@ -1,6 +1,6 @@
 package practice;
 
-public class ReverseString {
+public class two_ReverseString {
 
 	/**
 	 * @param args

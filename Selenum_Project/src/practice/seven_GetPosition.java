@@ -2,9 +2,9 @@ package practice;
 
 import java.util.Arrays;
 
-public class GetPosition {
+public class seven_GetPosition {
 	public static void main(String[] args) {
-		GetPosition mp = new GetPosition();
+		seven_GetPosition mp = new seven_GetPosition();
 		System.out.println(mp.getPosition(27));
 	}
 	public int getPosition(int x){

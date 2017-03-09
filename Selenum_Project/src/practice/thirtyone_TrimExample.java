@@ -1,6 +1,6 @@
 package practice;
 
-public class TrimExample {
+public class thirtyone_TrimExample {
 
 	public static void main(String[] args) {
 		String str = "   anshu   man   ";

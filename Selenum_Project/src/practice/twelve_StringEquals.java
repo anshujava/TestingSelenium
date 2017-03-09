@@ -1,6 +1,6 @@
 package practice;
 
-public class StringEquals {
+public class twelve_StringEquals {
 
 	
 	public static void main(String[] args) {

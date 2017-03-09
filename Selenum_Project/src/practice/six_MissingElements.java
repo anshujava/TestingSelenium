@@ -1,6 +1,6 @@
 package practice;
 
-public class MissingElements {
+public class six_MissingElements {
 
 	/**
 	 * @param args

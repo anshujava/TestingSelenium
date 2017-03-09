@@ -1,6 +1,6 @@
 package practice;
 
-public class pyramid {
+public class thirtythree_pyramid {
 
 	public static void main(String[] args) {
 		for (int i = 1; i <= 5; i++) 
