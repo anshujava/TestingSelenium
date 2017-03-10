@@ -9,11 +9,19 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.AssertJUnit;
+import org.openqa.selenium.support.Color;
+
 
 public class Practiceform_All_In_One_Script {
 	static WebDriver driver ; 
@@ -242,6 +250,41 @@ public class Practiceform_All_In_One_Script {
 			}else{
 				System.out.println("'Buzz Buzz' not available");
 			}
+			ScrollUPDown("Down");
+			// verify Change Color button
+			String buttonColor = driver.findElement(By.xpath("//*[@id='colorVar']")).getCssValue("color");
+			String[] numbers = buttonColor.replace("rgba(", "").replace(")", "").split(",");
+			int r=Integer.parseInt(numbers[0]);
+			numbers[1] = numbers[1].trim();
+			int g=Integer.parseInt(numbers[1]);
+			numbers[2] = numbers[2].trim();
+			int b=Integer.parseInt(numbers[2]);
+			System.out.println("color of button="+ColorName.getColorNameFromRgb(r,g,b));
+//			//after double click verify color of button
+			Thread.sleep(5000);
+			WebElement button = driver.findElement(By.xpath("//*[@id='doubleClick']"));
+			Actions act2 = new Actions(driver);
+			act2.doubleClick(button).perform();
+			Thread.sleep(5000);
+			String changebuttonColor = driver.findElement(By.xpath("//*[@id='doubleClick']")).getCssValue("color");
+			String[] numbers1 = changebuttonColor.replace("rgba(", "").replace(")", "").split(",");
+			int r1=Integer.parseInt(numbers1[0]);
+			numbers1[1] = numbers1[1].trim();
+			int g1=Integer.parseInt(numbers1[1]);
+			numbers1[2] = numbers1[2].trim();
+			int b1=Integer.parseInt(numbers1[2]);
+			System.out.println("changed color of button="+ColorName.getColorNameFromRgb(r1,g1,b1));
+			//drag and drop
+			Thread.sleep(5000);
+			WebElement drag = driver.findElement(By.xpath("//*[@id='draga']"));
+			WebElement drop = driver.findElement(By.xpath("//*[@id='dragb']"));
+//			System.out.println(drag.getText());
+//			System.out.println(drop.getText());
+//		    System.out.println(drop.getLocation());
+			Actions builder = new Actions(driver);
+		    Point point=driver.findElement(By.id("dragb")).getLocation();
+		    Action dragDrop = builder.clickAndHold(drag).moveToElement(drop).build();
+		    dragDrop.perform();
 			
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
@@ -277,4 +320,5 @@ public class Practiceform_All_In_One_Script {
 		 jse.executeScript("window.scrollBy(0,-250)", "");	//Scroll Up
 		 }
 	}
+	
 }

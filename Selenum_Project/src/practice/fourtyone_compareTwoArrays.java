@@ -23,7 +23,7 @@ public class fourtyone_compareTwoArrays {
 		{
 			System.out.println( "arrayA element " + a[i] + " was not found in arrayB" );
 		}
-				//set foundSwitch bool back to false
+				//set foundSwitch boolean back to false
 		foundSwitch = false;
 		}
 		}
